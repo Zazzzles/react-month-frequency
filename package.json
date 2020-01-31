@@ -1,6 +1,6 @@
 {
   "name": "react-month-frequency",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small component that displays frequency across months",
   "source": "src/index.js",
   "main": "dist/index.js",
