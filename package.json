@@ -1,0 +1,40 @@
+{
+  "name": "react-month-frequency",
+  "version": "1.0.0",
+  "description": "A small component that displays frequency across months",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "microbundle": "^0.11.0",
+    "styled-components": "^5.0.0"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "microbundle --tsconfig ./tsconfig.json --jsx React.createElement"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "frequency",
+    "heatmap",
+    "months",
+    "data",
+    "visualization",
+    "months",
+    "dates"
+  ],
+  "author": "Ras Brits",
+  "license": "MIT"
+}
