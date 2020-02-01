@@ -26,7 +26,7 @@ render(){
 
 ## Config (optional)
 
-Configuration object has the following shape but is optional
+The default configuration object has the following shape
 
 ```javascript
 {
